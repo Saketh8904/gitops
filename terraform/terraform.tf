@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vprofileaction2304"
+    bucket = "vprofileaction-26"
     key    = "terraform.tfstate"
     region = "eu-north-1"
   }
